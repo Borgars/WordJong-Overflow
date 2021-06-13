@@ -1,5 +1,7 @@
 # WordJong DS Buffer Overflow
-**NOTE: THIS EXPLOIT CORRUPTS THE SOUND OF THE GAME, IT IS HIGHLY RECOMMENDED TO MUTE THE EMULATOR OR SYSTEM IF THIS YOU RUN THIS EXPLOIT**
+**NOTE: THIS EXPLOIT CORRUPTS THE SOUND OF THE GAME, IT IS HIGHLY RECOMMENDED TO MUTE THE EMULATOR OR SYSTEM IF YOU RUN THIS EXPLOIT**
+
+**NOTE: THIS HAS BEEN TESTED AND WORKS ON ALL EMULATORS, BUT CANNOT BE HARDWARE VERIFIED, IT IS BELIEVED THIS IS DUE TO CORRUPTION OF THE CPSR** 
 
 ## About
 
@@ -9,7 +11,7 @@ I have written a small paper about finding the exploit [here](https://borga.rs/n
 
 ## Pre-Requisites
 
-If you just want to see the exploit working, you only need a way of loading a save onto a DS cartridge, or use an emulator if you are permitted to do so.
+If you just want to see the exploit working, use an emulator if you are permitted to do so.
 
 **Python 3** as well as the **pwntools** library for Python, this can be installed using pip. This is used for the CRC patching script.
 
