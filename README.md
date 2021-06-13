@@ -21,7 +21,7 @@ If you just want to see the exploit working, use an emulator if you are permitte
 
 **PoC.sav** - NDS save file that contains the exploit and a Proof of Concept payload, which makes the bottom screen change colour.
 
-**patch.py** - Python script that patches the CRC so that the game will not delete said save file when it is loaded into the cartridge.
+**patch.py** - Python script that patches the CRC so that the game will not delete said save file when it is loaded into the cartridge. This script can also be used to patch saves for: **Full Metal Alchemist Trading Card Game** and **Fab 5 Soccer**, although no buffer overflow has been found in these games yet.
 
 **payload.s** - The proof of concept payload in ARM assembly format, credits to [CTurt](https://github.com/CTurt "CTurt's GitHub")
 
